@@ -1,10 +1,10 @@
 import React,{Component} from "react";
 
-class Row extends Component{
+class Column extends Component{
   constructor (props) {
     super(props);
     this.state = {
-      text: "Row",
+      text: "Column",
     }
   }
 
@@ -17,4 +17,4 @@ class Row extends Component{
   }
 }
 
-export default Row;
+export default Column;

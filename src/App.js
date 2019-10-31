@@ -2,10 +2,14 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Row from "./componentes/row"
+import Column from './componentes/column';
 
 function App() {
   return (
-    <Row></Row>
+    <div>
+      <Row></Row>
+      <Column></Column>
+    </div>
   );
 }
 
