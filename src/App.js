@@ -9,6 +9,10 @@ function App() {
     <div>
       <Row></Row>
       <Column></Column>
+      <Column></Column>
+      <Row></Row>
+      <Column></Column>
+      <Column></Column>
     </div>
   );
 }
